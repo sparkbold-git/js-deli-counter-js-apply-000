@@ -15,7 +15,7 @@ function currentLine(line) {
   if (line.length === 0) {
     return "The line is currently empty."
   } else {
-    string = [];
+    var string = [];
     for (var i = 0; i < line.length; i++) {
     string.push(++i +". " + line[i]);
     }
